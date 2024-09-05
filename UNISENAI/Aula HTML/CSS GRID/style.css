@@ -1,0 +1,24 @@
+<style>
+@media (max-width: 60px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+   .grid-container {
+ display: grid;/* Define o elemento como um grid container */
+grid-template-columns: 1fr 1fr 1fr; /* Define três colunas de largura igual */
+grid-gap: 10px; /* Define um espaço de 10px entre os itens */
+}
+.grid-item {
+background-color: #186b1a; /* Cor de fundo verde */
+color: white; /* Cor do texto branca */
+border: 1px solid #ddd; /* Borda cinza */
+padding: 50px; /* Espaçamento interno de 20px */
+text-align: center; /* Centraliza o texto */
+font-size: 30px; /* Tamanho da fonte */
+}
+</style>
