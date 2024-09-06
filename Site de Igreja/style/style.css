@@ -1,0 +1,21 @@
+header{
+    margin: 3;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e bordas sejam incluídos nas dimensões totais dos elementos */
+}
+
+/* Estilos para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+    background-color: #f8f8fcd8; /* Define uma cor de fundo clara */
+    color: #242121; /* Define a cor do texto */
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-color: #b42016; /* Cor de fundo azul para o cabeçalho */
+    color: white; /* Cor do texto branca */
+    padding: 20px 0; /* Espaçamento interno no topo e embaixo */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
