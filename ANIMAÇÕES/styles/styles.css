@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=400');
+  background-size: cover;
+  color: #333;
+}
+header{
+  background-image: url('https://images.pexels.com/photos/268883/pexels-photo-268883.jpeg?auto=compress&cs=tinysrgb&w=400');
+  background-size:cover ;
+  text-align:center ;
+  padding:50px ;
+}
+header h1 {
+  color: rgb(250, 250, 250);
+  font-size: 3rem;
+}
+text.effects h2 {
+  margin:90px 0 ;
+  font-size: 2rem;
+  transition:all 0.3s ease;
+}
+.effect-fill:hover {
+  background-image: linear-gradient(to right,#f2709c, #ff9472);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.effect-scale:hover {
+  transform: scale(1.2);
+
+}
+.effect-fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+.effect-rotate:hover {
+  transform: rotate(30deg);
+}
+.effect-glow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.effect-float:hover {
+  transform: translate(-10px);
+}
+.effect-color-shift:hover {
+  color: #e01010;
+}
+.effect-blur:hover {
+  filter: blur(2px);
+
+}
+.effect-shadow:hover{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+}
+
+.box-effect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  background-color: #188ad6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.box-shadow:hover{
+  box-shadow: 10px 10px 30px rgb(250, 250, 250)
+}
+.box-zoom:hover {
+  transform: scale(1.1);
+}
+.box-hover-bg:hover{
+  background-color: #08185f;
+}
+.box-rotate:hover{
+  transform: rotate(10deg)
+}
+.box-translate:hover {
+  transform: translate(20px);
+}
+.box-border-radius:hover {
+  border-radius: 50%;
+}
+.box-scale:hover{
+  transform: scale(1.2);
+}
+.box-skew:hover{
+  transform: skew(10deg);
+}
+.box-glow{
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+.box-slide-up:hover{
+  transform: translateX(-10px);
+}
+
+
+
+
